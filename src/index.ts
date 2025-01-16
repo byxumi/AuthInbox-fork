@@ -236,6 +236,11 @@ export default class extends WorkerEntrypoint<Env> {
   {
     "codeExist": 0
   }
+
+  If this is an advertisement, junk, spam email, return:
+  {
+    "codeExist": 0
+  }
 `;
 
         try {

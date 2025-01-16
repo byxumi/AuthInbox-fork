@@ -58,6 +58,11 @@ GoogleAPIKey = "xxxxxxxxxxx"
 # your google AI API, you can have one from https://aistudio.google.com
 # 你的谷歌AI API，你可以从 https://aistudio.google.com 获取
 
+enableParseEmail = "true"
+# enableParseEmail: String
+# set to "true" to use postal-mime lib parse email content, set to "false" to disable parse
+# 是否使用 postal-mime 库来解析邮件内容，设置为 "true" 以启用解析，设置为 "false" 以禁用解析
+
 
 # Bind a D1 database. D1 is Cloudflare’s native serverless SQL database.
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#d1-databases
